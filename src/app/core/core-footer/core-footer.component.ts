@@ -25,6 +25,8 @@ export class CoreFooterComponent implements OnInit,OnDestroy {
   ngOnDestroy()
   {
     this.JsonReadSubscriptionCompanyInfo.unsubscribe();
+
+    
   }
 
 }
