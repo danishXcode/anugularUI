@@ -1,0 +1,18 @@
+{
+    "elements": [
+        {
+            "elementName": "navbar",
+            "settings": {
+                "title": "Gallery",
+                "url": "core/gallery"
+            }
+        },
+        {
+            "elementName": "navbar",
+            "settings": {
+                "title": "header",
+                "url": "core/header"
+            }
+        }
+    ]
+}
