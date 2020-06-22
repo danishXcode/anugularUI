@@ -19,14 +19,13 @@ export class CoreFooterComponent implements OnInit,OnDestroy {
 
     this.JsonReadSubscriptionCompanyInfo = this.JsonReadServiceService.getJSON(this.pathCompanyInfo).subscribe(data => {
       this.CompanyInfo=data.Companyinfo;
+      
     });
   }
   
   ngOnDestroy()
   {
     this.JsonReadSubscriptionCompanyInfo.unsubscribe();
-
-    
   }
 
 }
